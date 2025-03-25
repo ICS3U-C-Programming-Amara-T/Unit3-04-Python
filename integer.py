@@ -21,6 +21,9 @@ def main():
     elif user_guess > 0:
         print(f"{user_guess} is a positive number.")
 
+    else:
+        print("No Idea!")
+
 
 if __name__ == "__main__":
     main()
